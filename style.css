@@ -1,0 +1,56 @@
+
+.container{
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-group{
+    margin-bottom: 1rem;
+}
+
+#inputValue{
+    width:750px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border:1.5px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+    color: #495057;
+    background-color:white;
+    background-clip: padding-box;
+}
+
+#search{
+    color: #fff;
+    background-color: purple;
+    outline: none;
+    min-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+
+}
+
+section{
+    display : flex;
+    width : 100%;
+
+}
+
+section img{
+    width: 300px;
+    transition: 250ms all;
+}
+
+img:hover{
+    margin-left: 0 40px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
